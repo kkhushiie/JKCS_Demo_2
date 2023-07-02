@@ -175,7 +175,7 @@ class SimpleSlider extends React.Component {
         <div>
         <div className="card1">
             <h4>Vihaan Mishra 9</h4>
-            // <Rating name="read-only" value={4} readOnly/>
+            <Rating name="read-only" value={4} readOnly/>
             <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book.
             </p>
