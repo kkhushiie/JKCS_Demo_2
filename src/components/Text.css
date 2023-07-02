@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.body {
+  background: transparent;
+  min-height: 100vh;
+  max-width: 1200px;
+  color: #fff;
+  font-weight: 400;
+  margin:  auto;
+}
+.mainbody {
+  /* background-color: #302e46; */
+  
+}
+.section {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .bg1 {
+  background-color: #302e46;
+}
+.bg2 {
+  background-color: #302e46;
+} */
+h1 {
+  font-size: 100px;
+  line-height: 1.2;
+  margin: 0;
+}
+.revealUp {
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000000;
+}
+#fancy {
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image: 
+      url("https://wallpapercrafter.com/sizes/2560x1440/89750-dark-gradient-artist-artwork-digital-art-hd-4k-blur-simple-background.jpg");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
