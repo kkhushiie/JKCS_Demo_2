@@ -11,6 +11,7 @@ import Blogs from './components/Blogs';
 function App() {
   return (
    <> 
+   
    <Header/>
    <ServiceCard/>
    <About/>

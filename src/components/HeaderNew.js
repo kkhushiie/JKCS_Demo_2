@@ -14,7 +14,7 @@ export default function Header() {
     <NavBarNew/>
       <Grid sx={{display:"flex", justifyContent:'space-around',marginTop:{xs:"65px", xl:'70px', md:'120px', lg:'40px'}, paddingLeft:{xs:'20px',sm:'20px',md:'80px', lg:'170px', xl:'170px'}, alignItems:"center"}}container style={{width: "calc(100% + 0px)"}} direction={{md:"row", sm:"column", xs:"column", lg:"row", xl:"row"}} spacing={-12} columns={16}>
         <Grid item xs={6}>
-        <Typography style={{fontSize:'17px', color:'white', marginBottom:"20px"}}><span>JKC  Softwares LLP </span>keeps itself in the business of IT consultancy , software development, website and application development, and other relevant IT services to business and organizations.</Typography>
+        <Typography style={{fontSize:'17px', color:'white', marginBottom:"20px"}}><span1>JKC  Softwares LLP </span1>keeps itself in the business of IT consultancy , software development, website and application development, and other relevant IT services to business and organizations.</Typography>
 
       <Stack spacing={2} sx={{display:"flex", alignItems:"center"}} direction={{md:"row", sm:"row", xs:"row", lg:"row", xl:"row"}}>
     

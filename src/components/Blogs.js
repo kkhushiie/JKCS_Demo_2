@@ -1,6 +1,6 @@
 import './blogs.css';
 import { Typography } from '@mui/material';
-export default function(){
+export default function Blogs(){
     return(
         <>
         <Typography variant="h4" style={{fontSize: '45px', marginTop:"50px",
