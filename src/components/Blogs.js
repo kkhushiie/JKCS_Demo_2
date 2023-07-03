@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 export default function Blogs(){
     return(
         <>
-        <Typography variant="h4" style={{fontSize: '45px', marginTop:"50px",
+        <Typography variant="h4" style={{fontSize: '45px', marginTop:"150px",
         fontWeight: 'bold',
         color: 'hwb(49 14% 62%)',
         textAlign: 'center',

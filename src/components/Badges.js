@@ -7,7 +7,7 @@ import './Badges.css';
 export default function Badges() {
   return (
     <Box >
-      <Grid container style={{ marginTop:"100px",display:"flex",justifyContent:"center", marginBottom:"200px"}} spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+      <Grid container style={{ marginTop:"100px",display:"flex",justifyContent:"center", marginBottom:"150px"}} spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         
           <Grid sx={{ display:"Column"}}item xs={2} sm={2} md={2} >
           <center><img textAlign={"center"} width={'100px'} height={'100px'} src={"./img/card1.png"}/></center>

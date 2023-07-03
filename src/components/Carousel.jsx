@@ -58,9 +58,9 @@ class SimpleSlider extends React.Component {
     console.log('slider render');
     return (
       <>
-      <Typography variant="h4" style={{fontSize: '45px', marginTop:"50px",
+      <Typography variant="h4" style={{fontSize: '45px', marginTop:"50px", 
       fontWeight: 'bold',
-      color: 'hwb(49 14% 62%)',
+      color: '#262652',
       textAlign: 'center',
       textShadow: '2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)'}} gutterBottom>
     FEEDBACKS</Typography>
@@ -72,7 +72,7 @@ class SimpleSlider extends React.Component {
           
          
             <h4>Vihaan Mishra 0</h4>
-            <Rating name="read-only" value={2} readOnly/>
+            <Rating name="read-only" value={4} readOnly/>
             <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book.
             </p>
@@ -90,7 +90,8 @@ class SimpleSlider extends React.Component {
         <div>
           <div className="card1">
           <h4>Vihaan Mishra 2</h4>
-          <span height="0.5em" class="MuiRating-root MuiRating-sizeMedium Mui-readOnly MuiRating-readOnly css-ryrseu-MuiRating-root" role="img" aria-label="2 Stars"><span><span class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarIcon"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span></span><span><span class="MuiRating-icon MuiRating-iconFilled css-7qmtgc-MuiRating-icon"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarIcon"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span></span><span><span class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarBorderIcon"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg></span></span><span><span class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarBorderIcon"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg></span></span><span><span class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarBorderIcon"><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg></span></span></span>
+          <Rating name="read-only" value={5} readOnly/>
+
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. 
             </p>
@@ -134,7 +135,7 @@ class SimpleSlider extends React.Component {
         <div>
         <div className="card1">
         <h4>Vihaan Mishra 7</h4>
-            <Rating name="read-only" value={3} readOnly/>  <p>
+            <Rating name="read-only" value={5} readOnly/>  <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. specimen book. It has survived not only five centuries, but also the leap into elec
             </p>
           </div>

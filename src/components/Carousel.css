@@ -29,7 +29,7 @@
   .card1 {
     /* width: 280px; */
     height: 320px;
-    background-color: #94843A;
+    background-color: #343444;
     padding: 8px;
     color: #fff;
     position: relative;
@@ -39,7 +39,7 @@
     transition: all 0.3s ease-in-out;
     z-index: 1;
     &:hover {
-      border-top: 6px solid #94843A;
+      border-top: 6px solid #262652;
       background-color: #fff;
       cursor: pointer;
       color: black;
@@ -73,7 +73,7 @@
   }
   .slick-dots li.slick-active button:before {
     content: " ";
-    background: #94843A;
+    background: #333357;
     opacity: 1;
     height: 4px;
     width: 40px;

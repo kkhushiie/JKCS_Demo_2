@@ -14,7 +14,7 @@ const ServiceCard = () => {
       <div className="contain">    
         <div className="cards">
           <div className="card-item">
-          <img className="card-image" src='https://t4.ftcdn.net/jpg/03/09/43/45/360_F_309434585_5io0aZoLz4MFhoWqOS0Ch42yWedZgamc.jpg' alt='...' />
+          <img className="card-image" src='https://img.freepik.com/free-psd/business-people-discussing-documents-ideas-meeting-with-smartphone-isolated-background-businesswoman-having-idea-business-technology-concept-3d-render-cartoon-character_1150-61993.jpg' alt='...'/>
             <div className="card-info">
               <h2 className="card-title">IT Consultancy</h2>
               <p className="card-intro">Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros.Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros.</p>
@@ -25,7 +25,7 @@ const ServiceCard = () => {
         {/*card-2*/}
         <div className="cards">
         <div className="card-item">
-        <img className="card-image" src='https://img.freepik.com/free-psd/business-people-discussing-documents-ideas-meeting-with-smartphone-isolated-background-businesswoman-having-idea-business-technology-concept-3d-render-cartoon-character_1150-61993.jpg' alt='...'/>
+        <img className="card-image" src='https://img.freepik.com/free-psd/3d-illustration-man-flying-catch-golden-coin-business-graph-rendering_1150-53663.jpg' alt='...' />
         <div className="card-info">
             <h2 className="card-title">Development</h2>
             <p className="card-intro">Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros.Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros.</p>

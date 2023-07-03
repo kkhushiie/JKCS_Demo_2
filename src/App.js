@@ -10,18 +10,14 @@ import Blogs from './components/Blogs';
 
 function App() {
   return (
-   <> 
-   
+   <>
    <Header/>
    <ServiceCard/>
    <About/>
-
    <Text/>
    <Badges/>
-   <Blogs/>
-
    <Carousel/>
-   
+   <Blogs/>
    <Footer/>
    </>
   );
