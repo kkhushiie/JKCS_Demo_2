@@ -126,7 +126,7 @@ function NavBarNew() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
+            <Tooltip title="">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar style={{borderRadius:'0px'}} alt="..." src="img/logo.jpeg" />
               </IconButton>

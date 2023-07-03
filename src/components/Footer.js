@@ -48,22 +48,20 @@ return (
 			<FooterLink href="#">Address</FooterLink>
 			<FooterLink href="#">Phone Number</FooterLink>
 			<FooterLink href="#">Email</FooterLink>
-            <FooterLink style={{marginTop:"40px"}} href="#"><Button style={{BackgroundColor:"#94843A"}} startIcon={<SendIcon sx={{ color: "white" }} />}sx={{backgroundColor:"#94843A", fontSize:"12px" ,FlexDirection:"row" ,width:"120px"}} variant="none">Mail Us</Button></FooterLink>
+            <FooterLink style={{marginTop:"7px"}} href="#"><Button style={{BackgroundColor:"#94843A"}} startIcon={<SendIcon sx={{ color: "white" }} />}sx={{backgroundColor:"#94843A", fontSize:"12px" ,FlexDirection:"row" ,width:"120px"}} variant="none">Mail Us</Button></FooterLink>
+			<FooterLink href="#"> <Stack style={{display: "flex", marginTop:"0px" ,padding:"20px" , marginLeft:"-10px",flexDirection:"row"}}>
+			<Column style={{marginLeft: "3px"}}><Link href="#" style={{color: '#f5f5f5'}}><Twitter/></Link></Column>
+			<Column style={{marginLeft: "3px"}}><Link href="#" style={{color: '#f5f5f5'}} sx={{ pl: 1, pr: 1 }}><GitHub/></Link></Column>
+			<Column style={{marginLeft: "3px"}}><Link href="#" style={{color: '#f5f5f5'}}><LinkedIn/></Link></Column>
+			</Stack></FooterLink>
 
            
 		</Column>
        
 		</Row>
        
-        <Row style={{display: "flex", padding:"20px" , marginRight:"10px",flexDirection:"row-reverse"}} >
+      
        
-        <Column style={{marginLeft: "3px"}}><Link href="#" style={{color: '#f5f5f5', hover:"color"}}><Twitter/></Link></Column>
-        <Column style={{marginLeft: "3px"}}><Link href="#" style={{color: '#f5f5f5'}} sx={{ pl: 1, pr: 1 }}><GitHub/></Link></Column>
-        <Column style={{marginLeft: "3px"}}><Link href="#" style={{color: '#f5f5f5'}}><LinkedIn/></Link></Column>
-        </Row>
-        <Stack>
-          
-        </Stack>
 	</Container>
 	</Box>
    

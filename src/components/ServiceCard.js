@@ -6,7 +6,7 @@ const ServiceCard = () => {
         <>
         <Typography variant="h4" style={{fontSize: '45px', marginTop:"50px",
         fontWeight: 'bold',
-        color: '#262652',
+        color: 'hwb(49 14% 62%)',
         textAlign: 'center',
         textShadow: '2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3)'}} gutterBottom>
       OUR SERVICES</Typography>
